@@ -1,0 +1,94 @@
+<div class="panel-group" id="accordion"> <!-- accordion 1 -->
+   <div class="panel panel-primary">
+   
+        <div class="panel-heading"> <!-- panel-heading -->
+            <h4 class="panel-title"> <!-- title 1 -->
+            <a data-toggle="collapse" data-parent="#accordion" href="#accordionOne">
+              Basic details
+            </a>
+           </h4>
+        </div>
+    <!-- panel body -->
+        <div id="accordionOne" class="panel-collapse collapse in">
+          <div class="panel-body">
+           <%= render partial: 'details_column_layout', locals: {resources: @basic_details, appid: @appid} %>
+          </div>
+        </div>
+  </div>
+  
+   <div class="panel panel-success">  <!-- accordion 2 -->
+    
+          <div class="panel-heading"> 
+          <h4 class="panel-title"> <!-- title 2 -->
+            <a data-toggle="collapse" data-parent="#accordion" href="#accordionTwo">
+              Deal Terms
+            </a>
+          </h4>
+          </div>
+     <!-- panel body -->
+        <div id="accordionTwo" class="panel-collapse collapse">
+          <div class="panel-body">
+            <%= render partial: 'details_column_layout', locals: {resources: @deal_terms, appid: @appid} %>
+          </div>
+        </div>
+    
+   </div>
+   
+    <div class="panel panel-warning">  <!-- accordion 3 -->
+  
+        <div class="panel-heading">
+          <h4 class="panel-title"> <!-- title 3 -->
+            <a data-toggle="collapse" data-parent="#accordion" href="#accordionThree">
+              Funding details
+            </a>
+          </h4>
+        </div>
+    
+        <div id="accordionThree" class="panel-collapse collapse">
+          <!-- panel body -->
+          <div class="panel-body">
+            <%= render partial: 'details_column_layout', locals: {resources: @funding_details, appid: @appid} %> 
+          </div>
+        </div>
+    
+     </div>
+
+      <div class="panel panel-danger">  <!-- accordion 3 -->
+  
+        <div class="panel-heading">
+          <h4 class="panel-title"> <!-- title 3 -->
+            <a data-toggle="collapse" data-parent="#accordion" href="#accordionFour">
+              Repayment details
+            </a>
+          </h4>
+        </div>
+    
+        <div id="accordionFour" class="panel-collapse collapse">
+          <!-- panel body -->
+          <div class="panel-body">
+            <%= render partial: 'details_column_layout', locals: {resources: @repayment_details, appid: @appid} %>
+          </div>
+        </div>
+    
+     </div>
+
+      <div class="panel panel-info">  <!-- accordion 3 -->
+  
+        <div class="panel-heading">
+          <h4 class="panel-title"> <!-- title 3 -->
+            <a data-toggle="collapse" data-parent="#accordion" href="#accordionFive">
+              Document details
+            </a>
+          </h4>
+        </div>
+    
+        <div id="accordionFive" class="panel-collapse collapse">
+          <!-- panel body -->
+          <div class="panel-body">
+            <%= render partial: 'document_details', locals: {document_details: @document_details, appid: @appid} %>
+          </div>
+        </div>
+    
+     </div>
+   
+ </div>

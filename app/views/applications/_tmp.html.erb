@@ -1,0 +1,14 @@
+<% @document_details.each do |folder_name,details| %>
+            <br/><b><%= folder_name %></b>:<br/>
+            <% details.each do |item1| %>
+              <% item1.each do |key, value| %>
+                <% if key == 'FIlepath' %>
+                  <!-- <a href="http://localhost:3000/get_document?docid#{value}"> -->
+                  <%= link_to("http://localhost:3000/get_document?DocumentID=#{value}", :target => "_blank") do %>
+                    <%= value %>&nbsp; &nbsp; &nbsp;
+                  <% end %>
+                <% end %>
+              <% end %>
+            <% end %>
+            <br/><br/><br/>
+        <% end %>

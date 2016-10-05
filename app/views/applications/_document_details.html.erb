@@ -1,0 +1,128 @@
+
+<div class="wrapper wrapper-content animated fadeInRight">
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Document Tree</small></h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                    <a class="close-link">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ibox-content">
+
+                <div id="jstree1">
+                    <ul>
+                        <li class="jstree-open">
+                            <%= appid %>
+                            <ul>
+                            	<% @document_details.each do |folder_name,details| %>
+                            		<li class="jstree-open">
+						            	<%= folder_name %>
+						            	<ul>
+								            <% details.each do |item1| %>
+								              <% item1.each do |key, value| %>
+								                <% if key == 'FIlepath' %>
+									                  <li class="customli">
+									                  <%= link_to("http://localhost:3000/get_document?DocumentID=#{value}", :target => "_blank") do %>
+									                    <%= value %>
+									                  <% end %>
+								              		</li>
+								                <% end %>
+								              <% end %>
+								            <% end %>
+						            	</ul>
+						            </li>
+						        <% end %>
+                        	</ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+
+<% content_for :javascript do %>
+<script type="text/javascript">
+
+
+$(function() {
+
+    $( ".customli" ).each(function() {
+        var re = /(?:\.([^.]+))?$/;
+        var filename = ($(this).find('a').text());
+        var ext = filename.split('.').pop().trim().toLowerCase();
+        
+        if (ext == "jpg" || ext == "png"){
+            $(this).attr('data-jstree','{\"type\":\"img\"}');
+        } else if (ext == 'pdf'){
+            $(this).attr('data-jstree','{\"type\":\"pdf\"}');
+        }else if (ext == 'xls' || ext == 'xlsx'){
+            $(this).attr('data-jstree','{\"type\":\"excel\"}');
+        }else if (ext == 'mp3'){
+            $(this).attr('data-jstree','{\"type\":\"audio\"}');
+        }else{
+            $(this).attr('data-jstree','{\"type\":\"other\"}');
+        }
+    });
+    $('#jstree1').jstree({
+        'core': {
+            'check_callback': true
+        },
+        'plugins': ['types'],
+        'types': {
+            'default': {
+                'icon': 'fa fa-folder'
+            },
+            'html': {
+                'icon': 'fa fa-file-code-o'
+            },
+            'svg': {
+                'icon': 'fa fa-file-picture-o'
+            },
+            'css': {
+                'icon': 'fa fa-file-code-o'
+            },
+            'img': {
+                'icon': 'fa fa-file-image-o'
+            },
+            'js': {
+                'icon': 'fa fa-file-text-o'
+            },
+            'pdf': {
+                'icon': 'fa fa-file-pdf-o'
+            },
+            'excel': {
+                'icon': 'fa fa-file-excel-o'
+            },
+            'audio': {
+                'icon': 'fa fa-file-audio-o'
+            },
+            'other': {
+                'icon': 'fa fa-file-other-o'
+            }
+
+        }
+    });
+    $("#jstree1 li").on("click", "a", 
+        function() {
+            window.open( this, '_blank');
+        }
+    );
+});
+
+
+</script>
+<% end %>
