@@ -45449,3 +45449,3359 @@ ActionController::RoutingError (No route matches [GET] "/assets/dataTables/pdfma
   Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
   Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
   Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (52.6ms)
+
+
+Started GET "/applications" for ::1 at 2016-10-05 16:32:25 +0530
+Processing by ApplicationsController#all as HTML
+  Rendered applications/all.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_topnavbar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 791ms (Views: 123.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:32:26 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:32:26 +0530
+
+
+Started GET "/" for ::1 at 2016-10-05 16:32:28 +0530
+Processing by PortfolioController#report1 as HTML
+  Rendered portfolio/report1.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 869ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:32:29 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:32:29 +0530
+
+
+Started GET "/portfolio/report3" for ::1 at 2016-10-05 16:32:37 +0530
+Processing by PortfolioController#report3 as HTML
+  Rendered portfolio/report3.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 2731ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:32:40 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:32:40 +0530
+
+
+Started GET "/applications/details?ApplicationID=1000994" for ::1 at 2016-10-05 16:32:45 +0530
+Processing by ApplicationsController#details as HTML
+  Parameters: {"ApplicationID"=>"1000994"}
+  Rendered applications/_details_column_layout.html.erb (0.3ms)
+  Rendered applications/_details_column_layout.html.erb (0.1ms)
+  Rendered applications/_details_column_layout.html.erb (0.2ms)
+  Rendered applications/_details_column_layout.html.erb (0.2ms)
+  Rendered applications/_document_details.html.erb (1.4ms)
+  Rendered applications/details.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 2614ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:32:48 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:32:48 +0530
+
+
+Started GET "/assets/32px.png" for ::1 at 2016-10-05 16:33:55 +0530
+
+
+Started GET "/applications" for ::1 at 2016-10-05 16:34:53 +0530
+Processing by ApplicationsController#all as HTML
+  Rendered applications/all.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3685ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:34:57 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:34:57 +0530
+
+
+Started GET "/portfolio/report3" for ::1 at 2016-10-05 16:36:28 +0530
+Processing by PortfolioController#report3 as HTML
+  Rendered portfolio/report3.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1865ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:36:30 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:36:30 +0530
+
+
+Started GET "/portfolio/report3" for ::1 at 2016-10-05 16:44:32 +0530
+Processing by PortfolioController#report3 as HTML
+  Rendered portfolio/report3.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_navigation.html.erb (63.1ms)
+Completed 500 Internal Server Error in 2654ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `application_all' for #<#<Class:0x007fb79b8f81d0>:0x007fb79b8732f0>
+Did you mean?  applications_all_url
+               applications_all_path
+               applications_url
+               applications_path):
+    31:             <li class="<%= is_active_controller('applications') %>">
+    32:                 <a href=""><i class="fa fa-th-large"></i> <span class="nav-label" data-i18n="nav.dashboard">Application Details</span> <span class="fa arrow"></span></a>
+    33:                 <ul class="nav nav-second-level collapse <%= is_active_controller('portfolio') %>">
+    34:                     <li class="<%= is_active_action('all') %>"><%= link_to "report1", application_all %></li>
+    35:                     <li class="<%= is_active_action('report3') %>"><%= link_to "report3", portfolio_report3_path %></li>
+    36:                    
+    37:                 </ul>
+  app/views/layouts/_navigation.html.erb:34:in `_app_views_layouts__navigation_html_erb___949030351075172663_70213282300220'
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb__1341394331851053780_70213212739900'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.8ms)
+
+
+Started GET "/portfolio/report3" for ::1 at 2016-10-05 16:44:43 +0530
+Processing by PortfolioController#report3 as HTML
+  Rendered portfolio/report3.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_navigation.html.erb (44.7ms)
+Completed 500 Internal Server Error in 1819ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `application_all_path' for #<#<Class:0x007fb79b8f81d0>:0x007fb79ba7c0d8>
+Did you mean?  applications_all_path
+               applications_path
+               applications_all_url):
+    31:             <li class="<%= is_active_controller('applications') %>">
+    32:                 <a href=""><i class="fa fa-th-large"></i> <span class="nav-label" data-i18n="nav.dashboard">Application Details</span> <span class="fa arrow"></span></a>
+    33:                 <ul class="nav nav-second-level collapse <%= is_active_controller('portfolio') %>">
+    34:                     <li class="<%= is_active_action('all') %>"><%= link_to "report1", application_all_path %></li>
+    35:                     <li class="<%= is_active_action('report3') %>"><%= link_to "report3", portfolio_report3_path %></li>
+    36:                    
+    37:                 </ul>
+  app/views/layouts/_navigation.html.erb:34:in `_app_views_layouts__navigation_html_erb___949030351075172663_70213218239320'
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb__1341394331851053780_70213212739900'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.2ms)
+
+
+Started GET "/portfolio/report3" for ::1 at 2016-10-05 16:44:56 +0530
+Processing by PortfolioController#report3 as HTML
+  Rendered portfolio/report3.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1931ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-05 16:44:58 +0530
+
+
+Started GET "/portfolio/report3" for ::1 at 2016-10-05 16:45:05 +0530
+Processing by PortfolioController#report3 as HTML
+  Rendered portfolio/report3.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1770ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:45:06 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:45:06 +0530
+
+
+Started GET "/portfolio/report3" for ::1 at 2016-10-05 16:46:17 +0530
+Processing by PortfolioController#report3 as HTML
+  Rendered portfolio/report3.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_navigation.html.erb (62.5ms)
+Completed 500 Internal Server Error in 1917ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `application_all' for #<#<Class:0x007fb79b8f81d0>:0x007fb79b8487a8>
+Did you mean?  applications_all_url
+               applications_all_path
+               applications_url
+               applications_path):
+    31:             <li class="<%= is_active_controller('applications') %>">
+    32:                 <a href=""><i class="fa fa-th-large"></i> <span class="nav-label" data-i18n="nav.dashboard">Application Details</span> <span class="fa arrow"></span></a>
+    33:                 <ul class="nav nav-second-level collapse <%= is_active_controller('portfolio') %>">
+    34:                     <li class="<%= is_active_action('all') %>"><%= link_to "report1", application_all %></li>
+    35:                      <li><a href="#">Collection Reports</a></li>
+    36:                 </ul>
+    37:             </li>
+  app/views/layouts/_navigation.html.erb:34:in `_app_views_layouts__navigation_html_erb___949030351075172663_70213239582780'
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb__1341394331851053780_70213212739900'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.6ms)
+
+
+Started GET "/portfolio/report3" for ::1 at 2016-10-05 16:46:32 +0530
+Processing by PortfolioController#report3 as HTML
+  Rendered portfolio/report3.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1788ms (Views: 83.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:46:34 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 16:46:35 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 16:46:35 +0530
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-05 16:46:35 +0530
+
+
+Started GET "/applications/all" for ::1 at 2016-10-05 16:46:40 +0530
+Processing by ApplicationsController#applicationdetails as HTML
+  Rendered applications/applicationdetails.html.erb within layouts/application (13.5ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 562ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:46:40 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:46:40 +0530
+
+
+Started GET "/" for ::1 at 2016-10-05 16:47:48 +0530
+Processing by PortfolioController#report1 as HTML
+  Rendered portfolio/report1.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_topnavbar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 1089ms (Views: 370.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:47:49 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:47:49 +0530
+
+
+Started GET "/applications/all" for ::1 at 2016-10-05 16:47:54 +0530
+Processing by ApplicationsController#all as HTML
+  Rendered applications/all.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+  Rendered layouts/_topnavbar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 618ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:47:54 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:47:54 +0530
+
+
+Started GET "/applications/all" for ::1 at 2016-10-05 16:50:02 +0530
+Processing by ApplicationsController#all as HTML
+  Rendered applications/all.html.erb within layouts/application (15.4ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 602ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 16:50:03 +0530
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-05 16:50:04 +0530
+
+
+Started GET "/applications/all" for ::1 at 2016-10-05 16:50:15 +0530
+Processing by ApplicationsController#all as HTML
+  Rendered applications/all.html.erb within layouts/application (12.5ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 589ms (Views: 110.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:50:16 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 16:50:17 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 16:50:17 +0530
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-05 16:50:17 +0530
+
+
+Started GET "/applications/all" for ::1 at 2016-10-05 16:50:56 +0530
+Processing by ApplicationsController#all as HTML
+  Rendered applications/all.html.erb within layouts/application (13.4ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 758ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 16:50:57 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 16:50:58 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 16:50:58 +0530
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-05 16:50:58 +0530
+
+
+Started GET "/applications/all" for ::1 at 2016-10-05 16:51:04 +0530
+Processing by ApplicationsController#all as HTML
+  Rendered applications/all.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 668ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:51:04 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:51:04 +0530
+
+
+Started GET "/applications/all" for ::1 at 2016-10-05 16:51:05 +0530
+Processing by ApplicationsController#all as HTML
+  Rendered applications/all.html.erb within layouts/application (12.7ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 651ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:51:06 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:51:06 +0530
+
+
+Started GET "/portfolio/report1" for ::1 at 2016-10-05 16:51:13 +0530
+Processing by PortfolioController#report1 as HTML
+  Rendered portfolio/report1.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 656ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 16:51:14 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 16:51:14 +0530
+
+
+Started GET "/" for ::1 at 2016-10-05 17:10:57 +0530
+Processing by PortfolioController#report1 as HTML
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Generated login url: https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Redirecting to "https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1"
+Redirected to https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Filter chain halted as CASClient::Frameworks::Rails::Filter rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio/report1?ticket=ST-243-QjfLZmVWv5sKDBp5psg2-neogrowth.in" for ::1 at 2016-10-05 17:11:19 +0530
+Processing by PortfolioController#report1 as HTML
+  Parameters: {"ticket"=>"ST-243-QjfLZmVWv5sKDBp5psg2-neogrowth.in"}
+Request contains ticket "ST-243-QjfLZmVWv5sKDBp5psg2-neogrowth.in".
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Requesting CAS response for URI https://capdev.advancesuite.in:8443/cas/p3/serviceValidate?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1&ticket=ST-243-QjfLZmVWv5sKDBp5psg2-neogrowth.in
+CAS server responded with #<Net::HTTPOK 200 OK readbody=true>:
+
+
+
+
+<cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+    <cas:authenticationSuccess>
+        <cas:user>tech_demo</cas:user>
+        
+        
+
+        
+            <cas:attributes>
+                
+
+                    
+                        <cas:firstname>Ram</cas:firstname>
+                    
+                
+
+                    
+                        <cas:syncopeuid>100</cas:syncopeuid>
+                    
+                
+
+                    
+                        <cas:isFromNewLogin>true</cas:isFromNewLogin>
+                    
+                
+
+                    
+                        <cas:authenticationDate>2016-10-05T11:41:18.944Z</cas:authenticationDate>
+                    
+                
+
+                    
+                        <cas:iscrmadmin>0</cas:iscrmadmin>
+                    
+                
+
+                    
+                        <cas:city>Bengaluru</cas:city>
+                    
+                
+
+                    
+                        <cas:phonenumber>9962503103</cas:phonenumber>
+                    
+                
+
+                    
+                        <cas:nguid>6C88D8C7-E209-4D54-84E2-82DD3A592490</cas:nguid>
+                    
+                
+
+                    
+                        <cas:active>Active</cas:active>
+                    
+                
+
+                    
+                        <cas:lastname>A</cas:lastname>
+                    
+                
+
+                    
+                        <cas:longTermAuthenticationRequestTokenUsed>false</cas:longTermAuthenticationRequestTokenUsed>
+                    
+                
+
+                    
+                        <cas:state>Karnataka</cas:state>
+                    
+                
+
+                    
+                        <cas:email>tech.software@neogrowth.in</cas:email>
+                    
+                
+
+                    
+                        <cas:username>tech_demo</cas:username>
+                    
+                
+            </cas:attributes>
+        
+
+    </cas:authenticationSuccess>
+</cas:serviceResponse>
+
+Ticket "ST-243-QjfLZmVWv5sKDBp5psg2-neogrowth.in" for service "http://localhost:3001/portfolio/report1" belonging to user "tech_demo" is VALID.
+Extra user attributes provided along with ticket "ST-243-QjfLZmVWv5sKDBp5psg2-neogrowth.in": {"firstname"=>"Ram", "syncopeuid"=>"100", "isFromNewLogin"=>true, "authenticationDate"=>"2016-10-05 11:41:18 UTC", "iscrmadmin"=>"0", "city"=>"Bengaluru", "phonenumber"=>"9962503103", "nguid"=>"6C88D8C7-E209-4D54-84E2-82DD3A592490", "active"=>"Active", "lastname"=>"A", "longTermAuthenticationRequestTokenUsed"=>false, "state"=>"Karnataka", "email"=>"tech.software@neogrowth.in", "username"=>"tech_demo"}.
+  Rendered portfolio/report1.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_topnavbar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1673ms (Views: 401.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:11:20 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:11:20 +0530
+
+
+Started GET "/portfolio/report1?ticket=ST-243-QjfLZmVWv5sKDBp5psg2-neogrowth.in" for ::1 at 2016-10-05 17:15:44 +0530
+Processing by PortfolioController#report1 as HTML
+  Parameters: {"ticket"=>"ST-243-QjfLZmVWv5sKDBp5psg2-neogrowth.in"}
+Request contains ticket "ST-243-QjfLZmVWv5sKDBp5psg2-neogrowth.in".
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Re-using previously validated ticket since the ticket id and service are the same.
+  Rendered portfolio/report1.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 657ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:15:45 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:15:45 +0530
+
+
+Started GET "/portfolio/report1" for ::1 at 2016-10-05 17:15:49 +0530
+Processing by PortfolioController#report1 as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-243-QjfLZmVWv5sKDBp5psg2-neogrowth.in" will be re-used.
+  Rendered portfolio/report1.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 587ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:15:49 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:15:49 +0530
+
+
+Started GET "/portfolio/report1" for ::1 at 2016-10-05 17:16:16 +0530
+Processing by PortfolioController#report1 as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-243-QjfLZmVWv5sKDBp5psg2-neogrowth.in" will be re-used.
+  Rendered portfolio/report1.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 577ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:16:17 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:16:17 +0530
+
+
+Started GET "/" for ::1 at 2016-10-05 17:17:29 +0530
+Processing by PortfolioController#report1 as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-243-QjfLZmVWv5sKDBp5psg2-neogrowth.in" will be re-used.
+  Rendered portfolio/report1.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_topnavbar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 876ms (Views: 374.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:17:30 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:17:30 +0530
+
+
+Started GET "/home/logout" for ::1 at 2016-10-05 17:17:39 +0530
+Processing by HomeController#logout as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-243-QjfLZmVWv5sKDBp5psg2-neogrowth.in" will be re-used.
+Redirected to https://capdev.advancesuite.in:8443/cas/logout?service
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-05 17:17:53 +0530
+Processing by PortfolioController#report1 as HTML
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Generated login url: https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Redirecting to "https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1"
+Redirected to https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Filter chain halted as CASClient::Frameworks::Rails::Filter rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio/report1?ticket=ST-245-CFMur2jwidI3cTlofoYN-neogrowth.in" for ::1 at 2016-10-05 17:18:16 +0530
+Processing by PortfolioController#report1 as HTML
+  Parameters: {"ticket"=>"ST-245-CFMur2jwidI3cTlofoYN-neogrowth.in"}
+Request contains ticket "ST-245-CFMur2jwidI3cTlofoYN-neogrowth.in".
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Requesting CAS response for URI https://capdev.advancesuite.in:8443/cas/p3/serviceValidate?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1&ticket=ST-245-CFMur2jwidI3cTlofoYN-neogrowth.in
+CAS server responded with #<Net::HTTPOK 200 OK readbody=true>:
+
+
+
+
+<cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+    <cas:authenticationSuccess>
+        <cas:user>tech_demo</cas:user>
+        
+        
+
+        
+            <cas:attributes>
+                
+
+                    
+                        <cas:firstname>Ram</cas:firstname>
+                    
+                
+
+                    
+                        <cas:syncopeuid>100</cas:syncopeuid>
+                    
+                
+
+                    
+                        <cas:isFromNewLogin>true</cas:isFromNewLogin>
+                    
+                
+
+                    
+                        <cas:authenticationDate>2016-10-05T11:48:05.781Z</cas:authenticationDate>
+                    
+                
+
+                    
+                        <cas:iscrmadmin>0</cas:iscrmadmin>
+                    
+                
+
+                    
+                        <cas:city>Bengaluru</cas:city>
+                    
+                
+
+                    
+                        <cas:phonenumber>9962503103</cas:phonenumber>
+                    
+                
+
+                    
+                        <cas:nguid>6C88D8C7-E209-4D54-84E2-82DD3A592490</cas:nguid>
+                    
+                
+
+                    
+                        <cas:active>Active</cas:active>
+                    
+                
+
+                    
+                        <cas:lastname>A</cas:lastname>
+                    
+                
+
+                    
+                        <cas:longTermAuthenticationRequestTokenUsed>false</cas:longTermAuthenticationRequestTokenUsed>
+                    
+                
+
+                    
+                        <cas:state>Karnataka</cas:state>
+                    
+                
+
+                    
+                        <cas:email>tech.software@neogrowth.in</cas:email>
+                    
+                
+
+                    
+                        <cas:username>tech_demo</cas:username>
+                    
+                
+            </cas:attributes>
+        
+
+    </cas:authenticationSuccess>
+</cas:serviceResponse>
+
+Ticket "ST-245-CFMur2jwidI3cTlofoYN-neogrowth.in" for service "http://localhost:3001/portfolio/report1" belonging to user "tech_demo" is VALID.
+Extra user attributes provided along with ticket "ST-245-CFMur2jwidI3cTlofoYN-neogrowth.in": {"firstname"=>"Ram", "syncopeuid"=>"100", "isFromNewLogin"=>true, "authenticationDate"=>"2016-10-05 11:48:05 UTC", "iscrmadmin"=>"0", "city"=>"Bengaluru", "phonenumber"=>"9962503103", "nguid"=>"6C88D8C7-E209-4D54-84E2-82DD3A592490", "active"=>"Active", "lastname"=>"A", "longTermAuthenticationRequestTokenUsed"=>false, "state"=>"Karnataka", "email"=>"tech.software@neogrowth.in", "username"=>"tech_demo"}.
+  Rendered portfolio/report1.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_topnavbar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 829ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:18:17 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:18:17 +0530
+
+
+Started GET "/portfolio/report1" for ::1 at 2016-10-05 17:18:24 +0530
+Processing by PortfolioController#report1 as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-245-CFMur2jwidI3cTlofoYN-neogrowth.in" will be re-used.
+  Rendered portfolio/report1.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 709ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:18:25 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:18:25 +0530
+
+
+Started GET "/home/logout" for ::1 at 2016-10-05 17:19:01 +0530
+Processing by HomeController#logout as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-245-CFMur2jwidI3cTlofoYN-neogrowth.in" will be re-used.
+Redirected to https://capdev.advancesuite.in:8443/cas/logout?service
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio/report1" for ::1 at 2016-10-05 17:21:46 +0530
+Processing by PortfolioController#report1 as HTML
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Generated login url: https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Redirecting to "https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1"
+Redirected to https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Filter chain halted as CASClient::Frameworks::Rails::Filter rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio/report1?ticket=ST-246-ja2XMQcRLFKfH9KGodSG-neogrowth.in" for ::1 at 2016-10-05 17:22:02 +0530
+Processing by PortfolioController#report1 as HTML
+  Parameters: {"ticket"=>"ST-246-ja2XMQcRLFKfH9KGodSG-neogrowth.in"}
+Request contains ticket "ST-246-ja2XMQcRLFKfH9KGodSG-neogrowth.in".
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Requesting CAS response for URI https://capdev.advancesuite.in:8443/cas/p3/serviceValidate?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1&ticket=ST-246-ja2XMQcRLFKfH9KGodSG-neogrowth.in
+CAS server responded with #<Net::HTTPOK 200 OK readbody=true>:
+
+
+
+
+<cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+    <cas:authenticationSuccess>
+        <cas:user>tech_demo</cas:user>
+        
+        
+
+        
+            <cas:attributes>
+                
+
+                    
+                        <cas:firstname>Ram</cas:firstname>
+                    
+                
+
+                    
+                        <cas:syncopeuid>100</cas:syncopeuid>
+                    
+                
+
+                    
+                        <cas:isFromNewLogin>true</cas:isFromNewLogin>
+                    
+                
+
+                    
+                        <cas:authenticationDate>2016-10-05T11:52:02.362Z</cas:authenticationDate>
+                    
+                
+
+                    
+                        <cas:iscrmadmin>0</cas:iscrmadmin>
+                    
+                
+
+                    
+                        <cas:city>Bengaluru</cas:city>
+                    
+                
+
+                    
+                        <cas:phonenumber>9962503103</cas:phonenumber>
+                    
+                
+
+                    
+                        <cas:nguid>6C88D8C7-E209-4D54-84E2-82DD3A592490</cas:nguid>
+                    
+                
+
+                    
+                        <cas:active>Active</cas:active>
+                    
+                
+
+                    
+                        <cas:lastname>A</cas:lastname>
+                    
+                
+
+                    
+                        <cas:longTermAuthenticationRequestTokenUsed>false</cas:longTermAuthenticationRequestTokenUsed>
+                    
+                
+
+                    
+                        <cas:state>Karnataka</cas:state>
+                    
+                
+
+                    
+                        <cas:email>tech.software@neogrowth.in</cas:email>
+                    
+                
+
+                    
+                        <cas:username>tech_demo</cas:username>
+                    
+                
+            </cas:attributes>
+        
+
+    </cas:authenticationSuccess>
+</cas:serviceResponse>
+
+Ticket "ST-246-ja2XMQcRLFKfH9KGodSG-neogrowth.in" for service "http://localhost:3001/portfolio/report1" belonging to user "tech_demo" is VALID.
+Extra user attributes provided along with ticket "ST-246-ja2XMQcRLFKfH9KGodSG-neogrowth.in": {"firstname"=>"Ram", "syncopeuid"=>"100", "isFromNewLogin"=>true, "authenticationDate"=>"2016-10-05 11:52:02 UTC", "iscrmadmin"=>"0", "city"=>"Bengaluru", "phonenumber"=>"9962503103", "nguid"=>"6C88D8C7-E209-4D54-84E2-82DD3A592490", "active"=>"Active", "lastname"=>"A", "longTermAuthenticationRequestTokenUsed"=>false, "state"=>"Karnataka", "email"=>"tech.software@neogrowth.in", "username"=>"tech_demo"}.
+  Rendered portfolio/report1.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 878ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:22:03 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:22:03 +0530
+
+
+Started GET "/portfolio/report1" for ::1 at 2016-10-05 17:22:17 +0530
+Processing by PortfolioController#report1 as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-246-ja2XMQcRLFKfH9KGodSG-neogrowth.in" will be re-used.
+  Rendered portfolio/report1.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 614ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:22:17 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:22:17 +0530
+
+
+Started GET "/portfolio/report1" for ::1 at 2016-10-05 17:22:30 +0530
+Processing by PortfolioController#report1 as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-246-ja2XMQcRLFKfH9KGodSG-neogrowth.in" will be re-used.
+  Rendered portfolio/report1.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 560ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:22:30 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:22:31 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 17:22:31 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 17:22:31 +0530
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-05 17:22:31 +0530
+
+
+Started GET "/portfolio/report1" for ::1 at 2016-10-05 17:22:52 +0530
+Processing by PortfolioController#report1 as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-246-ja2XMQcRLFKfH9KGodSG-neogrowth.in" will be re-used.
+  Rendered portfolio/report1.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_navigation.html.erb (1.1ms)
+  Rendered layouts/_topnavbar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 905ms (Views: 367.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:22:53 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 17:22:54 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 17:22:54 +0530
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-05 17:22:54 +0530
+
+
+Started GET "/portfolio/report1" for ::1 at 2016-10-05 17:25:36 +0530
+Processing by PortfolioController#report1 as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-246-ja2XMQcRLFKfH9KGodSG-neogrowth.in" will be re-used.
+  Rendered portfolio/report1.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 624ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 17:25:36 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 17:25:36 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 17:25:36 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 17:25:36 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 17:25:36 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 17:25:36 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 17:25:36 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 17:25:36 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 17:25:36 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 17:25:36 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 17:25:36 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-05 17:25:37 +0530
+
+
+Started GET "/home/logout" for ::1 at 2016-10-05 17:25:51 +0530
+Processing by HomeController#logout as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-246-ja2XMQcRLFKfH9KGodSG-neogrowth.in" will be re-used.
+Redirected to https://capdev.advancesuite.in:8443/cas/logout?destination=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1&gateway=true
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio/report1" for ::1 at 2016-10-05 17:25:58 +0530
+Processing by PortfolioController#report1 as HTML
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Generated login url: https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Redirecting to "https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1"
+Redirected to https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Filter chain halted as CASClient::Frameworks::Rails::Filter rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio/report1?ticket=ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in" for ::1 at 2016-10-05 17:26:01 +0530
+Processing by PortfolioController#report1 as HTML
+  Parameters: {"ticket"=>"ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in"}
+Request contains ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in".
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Requesting CAS response for URI https://capdev.advancesuite.in:8443/cas/p3/serviceValidate?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1&ticket=ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in
+CAS server responded with #<Net::HTTPOK 200 OK readbody=true>:
+
+
+
+
+<cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+    <cas:authenticationSuccess>
+        <cas:user>tech_demo</cas:user>
+        
+        
+
+        
+            <cas:attributes>
+                
+
+                    
+                        <cas:firstname>Ram</cas:firstname>
+                    
+                
+
+                    
+                        <cas:syncopeuid>100</cas:syncopeuid>
+                    
+                
+
+                    
+                        <cas:isFromNewLogin>true</cas:isFromNewLogin>
+                    
+                
+
+                    
+                        <cas:authenticationDate>2016-10-05T11:56:01.224Z</cas:authenticationDate>
+                    
+                
+
+                    
+                        <cas:iscrmadmin>0</cas:iscrmadmin>
+                    
+                
+
+                    
+                        <cas:city>Bengaluru</cas:city>
+                    
+                
+
+                    
+                        <cas:phonenumber>9962503103</cas:phonenumber>
+                    
+                
+
+                    
+                        <cas:nguid>6C88D8C7-E209-4D54-84E2-82DD3A592490</cas:nguid>
+                    
+                
+
+                    
+                        <cas:active>Active</cas:active>
+                    
+                
+
+                    
+                        <cas:lastname>A</cas:lastname>
+                    
+                
+
+                    
+                        <cas:longTermAuthenticationRequestTokenUsed>false</cas:longTermAuthenticationRequestTokenUsed>
+                    
+                
+
+                    
+                        <cas:state>Karnataka</cas:state>
+                    
+                
+
+                    
+                        <cas:email>tech.software@neogrowth.in</cas:email>
+                    
+                
+
+                    
+                        <cas:username>tech_demo</cas:username>
+                    
+                
+            </cas:attributes>
+        
+
+    </cas:authenticationSuccess>
+</cas:serviceResponse>
+
+Ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in" for service "http://localhost:3001/portfolio/report1" belonging to user "tech_demo" is VALID.
+Extra user attributes provided along with ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in": {"firstname"=>"Ram", "syncopeuid"=>"100", "isFromNewLogin"=>true, "authenticationDate"=>"2016-10-05 11:56:01 UTC", "iscrmadmin"=>"0", "city"=>"Bengaluru", "phonenumber"=>"9962503103", "nguid"=>"6C88D8C7-E209-4D54-84E2-82DD3A592490", "active"=>"Active", "lastname"=>"A", "longTermAuthenticationRequestTokenUsed"=>false, "state"=>"Karnataka", "email"=>"tech.software@neogrowth.in", "username"=>"tech_demo"}.
+  Rendered portfolio/report1.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 952ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:26:02 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:26:02 +0530
+
+
+Started GET "/home/get_user_details" for ::1 at 2016-10-05 17:28:37 +0530
+Processing by HomeController#get_user_details as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in" will be re-used.
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio/report1?ticket=ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in" for ::1 at 2016-10-05 17:31:13 +0530
+Processing by PortfolioController#report1 as HTML
+  Parameters: {"ticket"=>"ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in"}
+Request contains ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in".
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Re-using previously validated ticket since the ticket id and service are the same.
+  Rendered portfolio/report1.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_topnavbar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 628ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 17:31:13 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:31:14 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 17:31:14 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 17:31:14 +0530
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-05 17:31:14 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:32:10 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:32:10 +0530
+
+
+Started GET "/assets/dataTables/pdfmake.min.js.map" for ::1 at 2016-10-05 17:32:10 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/dataTables/pdfmake.min.js.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.9ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.9ms)
+
+
+Started GET "/portfolio/report1?ticket=ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in" for ::1 at 2016-10-05 17:32:33 +0530
+Processing by PortfolioController#report1 as HTML
+  Parameters: {"ticket"=>"ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in"}
+Request contains ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in".
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Re-using previously validated ticket since the ticket id and service are the same.
+  Rendered portfolio/report1.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 563ms (Views: 86.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:32:34 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 17:32:35 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 17:32:35 +0530
+
+
+Started GET "/assets/dataTables/pdfmake.min.js.map" for ::1 at 2016-10-05 17:32:35 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/dataTables/pdfmake.min.js.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (93.3ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-05 17:32:35 +0530
+
+
+Started GET "/home" for ::1 at 2016-10-05 17:34:14 +0530
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.4ms)
+
+
+Started GET "/home/index" for ::1 at 2016-10-05 17:34:22 +0530
+Processing by HomeController#index as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in" will be re-used.
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_topnavbar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:34:22 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:34:22 +0530
+
+
+Started GET "/assets/dataTables/pdfmake.min.js.map" for ::1 at 2016-10-05 17:34:23 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/dataTables/pdfmake.min.js.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.2ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (66.9ms)
+
+
+Started GET "/home/index" for ::1 at 2016-10-05 17:34:32 +0530
+Processing by HomeController#index as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in" will be re-used.
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 76ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:34:32 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 17:34:33 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 17:34:33 +0530
+
+
+Started GET "/assets/dataTables/pdfmake.min.js.map" for ::1 at 2016-10-05 17:34:33 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/dataTables/pdfmake.min.js.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.1ms)
+
+
+Started GET "/home/index" for ::1 at 2016-10-05 17:35:30 +0530
+Processing by HomeController#index as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in" will be re-used.
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_topnavbar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 120ms (Views: 118.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:35:30 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 17:35:31 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 17:35:31 +0530
+
+
+Started GET "/assets/dataTables/pdfmake.min.js.map" for ::1 at 2016-10-05 17:35:31 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/dataTables/pdfmake.min.js.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (98.4ms)
+
+
+Started GET "/home/index" for ::1 at 2016-10-05 17:36:32 +0530
+
+ActionController::RoutingError (undefined local variable or method `session' for ApplicationController:Class):
+  app/controllers/application_controller.rb:7:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/home_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (80.6ms)
+
+
+Started GET "/home/index" for ::1 at 2016-10-05 17:45:21 +0530
+Processing by HomeController#index as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in" will be re-used.
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (40.4ms)
+Completed 500 Internal Server Error in 132ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `user_name' for #<#<Class:0x007faf59bb4288>:0x007faf539db638>):
+     6:                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+     7:                         <span class="clear">
+     8:                             <span class="block m-t-xs">
+     9:                                 <strong class="font-bold"><%= user_name %></strong>
+    10:                             </span> <span class="text-muted text-xs block">Example menu <b class="caret"></b></span>
+    11:                         </span>
+    12:                     </a>
+  app/views/layouts/_navigation.html.erb:9:in `_app_views_layouts__navigation_html_erb___694557834698817691_70195506726100'
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb___2738153146732890909_70195515541340'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (75.0ms)
+
+
+Started GET "/home/index" for ::1 at 2016-10-05 17:45:42 +0530
+Processing by HomeController#index as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in" will be re-used.
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation.html.erb (40.3ms)
+Completed 500 Internal Server Error in 539ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `user_name' for #<#<Class:0x007f9d83cefc20>:0x007f9d83cee1e0>):
+     6:                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+     7:                         <span class="clear">
+     8:                             <span class="block m-t-xs">
+     9:                                 <strong class="font-bold"><%= user_name %></strong>
+    10:                             </span> <span class="text-muted text-xs block">Example menu <b class="caret"></b></span>
+    11:                         </span>
+    12:                     </a>
+  app/views/layouts/_navigation.html.erb:9:in `_app_views_layouts__navigation_html_erb___1535786764236920372_70157314142560'
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb__2743669095971359838_70157248771220'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.9ms)
+
+
+Started GET "/home/index" for ::1 at 2016-10-05 17:46:28 +0530
+Processing by HomeController#index as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in" will be re-used.
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_topnavbar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 112ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:46:28 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 17:46:29 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 17:46:29 +0530
+
+
+Started GET "/assets/dataTables/pdfmake.min.js.map" for ::1 at 2016-10-05 17:46:29 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/dataTables/pdfmake.min.js.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.8ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.8ms)
+
+
+Started GET "/home/get_user_details" for ::1 at 2016-10-05 17:47:08 +0530
+Processing by HomeController#get_user_details as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in" will be re-used.
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dataTables/pdfmake.min.js.map" for ::1 at 2016-10-05 17:47:55 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/dataTables/pdfmake.min.js.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (66.7ms)
+
+
+Started GET "/home/logout" for ::1 at 2016-10-05 17:48:00 +0530
+Processing by HomeController#logout as HTML
+Existing local CAS session detected for "tech_demo". Previous ticket "ST-247-4YjrjIdULAL51MK1ccEa-neogrowth.in" will be re-used.
+Redirected to https://capdev.advancesuite.in:8443/cas/logout?destination=http%3A%2F%2Flocalhost%3A3001%2Fhome%2Findex&gateway=true
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dataTables/pdfmake.min.js.map" for ::1 at 2016-10-05 17:48:04 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/dataTables/pdfmake.min.js.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (85.4ms)
+
+
+Started GET "/home/index" for ::1 at 2016-10-05 17:48:10 +0530
+Processing by HomeController#index as HTML
+Guessed service url: "http://localhost:3001/home/index"
+Generated login url: https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fhome%2Findex
+Redirecting to "https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fhome%2Findex"
+Redirected to https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fhome%2Findex
+Filter chain halted as CASClient::Frameworks::Rails::Filter rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index?ticket=ST-249-izOeKEAoPF5pu0cdJBTy-neogrowth.in" for ::1 at 2016-10-05 17:48:17 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"ticket"=>"ST-249-izOeKEAoPF5pu0cdJBTy-neogrowth.in"}
+Request contains ticket "ST-249-izOeKEAoPF5pu0cdJBTy-neogrowth.in".
+Guessed service url: "http://localhost:3001/home/index"
+Requesting CAS response for URI https://capdev.advancesuite.in:8443/cas/p3/serviceValidate?service=http%3A%2F%2Flocalhost%3A3001%2Fhome%2Findex&ticket=ST-249-izOeKEAoPF5pu0cdJBTy-neogrowth.in
+CAS server responded with #<Net::HTTPOK 200 OK readbody=true>:
+
+
+
+
+<cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+    <cas:authenticationSuccess>
+        <cas:user>tech_demo1</cas:user>
+        
+        
+
+        
+            <cas:attributes>
+                
+
+                    
+                        <cas:firstname>TechDemo1</cas:firstname>
+                    
+                
+
+                    
+                        <cas:syncopeuid>250</cas:syncopeuid>
+                    
+                
+
+                    
+                        <cas:isFromNewLogin>true</cas:isFromNewLogin>
+                    
+                
+
+                    
+                        <cas:authenticationDate>2016-10-05T12:18:17.705Z</cas:authenticationDate>
+                    
+                
+
+                    
+                        <cas:iscrmadmin>0</cas:iscrmadmin>
+                    
+                
+
+                    
+                        <cas:nguid>111</cas:nguid>
+                    
+                
+
+                    
+                        <cas:active>Active</cas:active>
+                    
+                
+
+                    
+                        <cas:longTermAuthenticationRequestTokenUsed>false</cas:longTermAuthenticationRequestTokenUsed>
+                    
+                
+
+                    
+                        <cas:email>akshay@neogrowth.in</cas:email>
+                    
+                
+
+                    
+                        <cas:username>tech_demo1</cas:username>
+                    
+                
+
+                    
+                        <cas:lastname>Akshay</cas:lastname>
+                    
+                
+            </cas:attributes>
+        
+
+    </cas:authenticationSuccess>
+</cas:serviceResponse>
+
+Ticket "ST-249-izOeKEAoPF5pu0cdJBTy-neogrowth.in" for service "http://localhost:3001/home/index" belonging to user "tech_demo1" is VALID.
+Extra user attributes provided along with ticket "ST-249-izOeKEAoPF5pu0cdJBTy-neogrowth.in": {"firstname"=>"TechDemo1", "syncopeuid"=>"250", "isFromNewLogin"=>true, "authenticationDate"=>"2016-10-05 12:18:17 UTC", "iscrmadmin"=>"0", "nguid"=>"111", "active"=>"Active", "longTermAuthenticationRequestTokenUsed"=>false, "email"=>"akshay@neogrowth.in", "username"=>"tech_demo1", "lastname"=>"Akshay"}.
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 404ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:48:18 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:48:18 +0530
+
+
+Started GET "/assets/dataTables/pdfmake.min.js.map" for ::1 at 2016-10-05 17:48:18 +0530
+
+ActionController::RoutingError (No route matches [GET] "/assets/dataTables/pdfmake.min.js.map"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/nikhilkumar/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/nikhilkumar/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (90.4ms)
+
+
+Started GET "/portfolio/report1" for ::1 at 2016-10-05 17:48:44 +0530
+Processing by PortfolioController#report1 as HTML
+Existing local CAS session detected for "tech_demo1". Previous ticket "ST-249-izOeKEAoPF5pu0cdJBTy-neogrowth.in" will be re-used.
+  Rendered portfolio/report1.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 665ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:48:45 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:48:45 +0530
+
+
+Started GET "/portfolio/report1" for ::1 at 2016-10-05 17:53:23 +0530
+Processing by PortfolioController#report1 as HTML
+Existing local CAS session detected for "tech_demo1". Previous ticket "ST-249-izOeKEAoPF5pu0cdJBTy-neogrowth.in" will be re-used.
+  Rendered portfolio/report1.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 654ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 17:53:24 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 17:53:25 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 17:53:25 +0530
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-05 17:53:25 +0530
+
+
+Started GET "/home/logout" for ::1 at 2016-10-05 17:53:50 +0530
+Processing by HomeController#logout as HTML
+Existing local CAS session detected for "tech_demo1". Previous ticket "ST-249-izOeKEAoPF5pu0cdJBTy-neogrowth.in" will be re-used.
+Redirected to https://capdev.advancesuite.in:8443/cas/logout?destination=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1&gateway=true
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio/report1" for ::1 at 2016-10-05 17:53:57 +0530
+Processing by PortfolioController#report1 as HTML
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Generated login url: https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Redirecting to "https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1"
+Redirected to https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Filter chain halted as CASClient::Frameworks::Rails::Filter rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio/report1?ticket=ST-250-ID3RkexAePmgTKdc0AXG-neogrowth.in" for ::1 at 2016-10-05 17:54:02 +0530
+Processing by PortfolioController#report1 as HTML
+  Parameters: {"ticket"=>"ST-250-ID3RkexAePmgTKdc0AXG-neogrowth.in"}
+Request contains ticket "ST-250-ID3RkexAePmgTKdc0AXG-neogrowth.in".
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Requesting CAS response for URI https://capdev.advancesuite.in:8443/cas/p3/serviceValidate?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1&ticket=ST-250-ID3RkexAePmgTKdc0AXG-neogrowth.in
+CAS server responded with #<Net::HTTPOK 200 OK readbody=true>:
+
+
+
+
+<cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+    <cas:authenticationSuccess>
+        <cas:user>tech_demo1</cas:user>
+        
+        
+
+        
+            <cas:attributes>
+                
+
+                    
+                        <cas:firstname>TechDemo1</cas:firstname>
+                    
+                
+
+                    
+                        <cas:syncopeuid>250</cas:syncopeuid>
+                    
+                
+
+                    
+                        <cas:isFromNewLogin>true</cas:isFromNewLogin>
+                    
+                
+
+                    
+                        <cas:authenticationDate>2016-10-05T12:24:02.233Z</cas:authenticationDate>
+                    
+                
+
+                    
+                        <cas:iscrmadmin>0</cas:iscrmadmin>
+                    
+                
+
+                    
+                        <cas:nguid>111</cas:nguid>
+                    
+                
+
+                    
+                        <cas:active>Active</cas:active>
+                    
+                
+
+                    
+                        <cas:longTermAuthenticationRequestTokenUsed>false</cas:longTermAuthenticationRequestTokenUsed>
+                    
+                
+
+                    
+                        <cas:email>akshay@neogrowth.in</cas:email>
+                    
+                
+
+                    
+                        <cas:username>tech_demo1</cas:username>
+                    
+                
+
+                    
+                        <cas:lastname>Akshay</cas:lastname>
+                    
+                
+            </cas:attributes>
+        
+
+    </cas:authenticationSuccess>
+</cas:serviceResponse>
+
+Ticket "ST-250-ID3RkexAePmgTKdc0AXG-neogrowth.in" for service "http://localhost:3001/portfolio/report1" belonging to user "tech_demo1" is VALID.
+Extra user attributes provided along with ticket "ST-250-ID3RkexAePmgTKdc0AXG-neogrowth.in": {"firstname"=>"TechDemo1", "syncopeuid"=>"250", "isFromNewLogin"=>true, "authenticationDate"=>"2016-10-05 12:24:02 UTC", "iscrmadmin"=>"0", "nguid"=>"111", "active"=>"Active", "longTermAuthenticationRequestTokenUsed"=>false, "email"=>"akshay@neogrowth.in", "username"=>"tech_demo1", "lastname"=>"Akshay"}.
+  Rendered portfolio/report1.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 988ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 17:54:03 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 17:54:03 +0530
+
+
+Started GET "/portfolio/report1?ticket=ST-250-ID3RkexAePmgTKdc0AXG-neogrowth.in" for ::1 at 2016-10-05 18:05:18 +0530
+Processing by PortfolioController#report1 as HTML
+  Parameters: {"ticket"=>"ST-250-ID3RkexAePmgTKdc0AXG-neogrowth.in"}
+Request contains ticket "ST-250-ID3RkexAePmgTKdc0AXG-neogrowth.in".
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Re-using previously validated ticket since the ticket id and service are the same.
+  Rendered portfolio/report1.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 619ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9f3ca8d0a7981b557f8dcb0a2e5507b9a5f3ce007cbe1e62289a2412331611ee.css?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/jquery/jquery-2.1.1.self-cdd78b0dc506b751b442bb5e5298ea658af2ee55e46ccb88ba5583570ca686e2.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/metisMenu/jquery.metisMenu.self-587029531d977fc7fa10623dd670189a298bd606124c23fc2edd051da5b0c914.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/pace/pace.min.self-9bf6d667514a59744d5db2c9392aaf5595dec9c131a425ababa1cb8cddb814f2.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/slimscroll/jquery.slimscroll.min.self-a2008e2992d055fbe5108d326a54c3083f843da1a30240d2b2e1f706716fa03e.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/applications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/inspinia.self-ff741bfc8a20f2b6b978ead9ae72eaeb83cd24b005f136816054ecb30f34bce9.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/jquery-ui/jquery-ui.min.self-97ab1910a17739175e3ce57cb9948f4190e0277e248d605f9599af72d09697ea.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/jsTree/jstree.min.self-859cb4a6c7c5fadb2ea94894732f7892cd5a97808b3d8f0dca41dff897db503b.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/validate/jquery.validate.min.self-e27883b3cf3329ba64a4b65fcfabe45102fe636c21660356f51619b5ede9e43f.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/miscellaneous.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/portfolio.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 18:05:18 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.self-639fba53207843ea1da1c88206379370a9f70842f8e947152fbbf7d40841dfbb.js?body=1" for ::1 at 2016-10-05 18:05:19 +0530
+
+
+Started GET "/assets/tables.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-10-05 18:05:19 +0530
+
+
+Started GET "/assets/application.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-10-05 18:05:19 +0530
+
+
+Started GET "/assets/patterns/header-profile-c05909898218a521d3bd19ba09a9a43338de6de5fdf1d3fc771b0ec28ae416c5.png" for ::1 at 2016-10-05 18:05:19 +0530
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for ::1 at 2016-10-05 18:05:19 +0530
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2016-10-05 18:05:19 +0530
+
+
+Started GET "/home/logout" for ::1 at 2016-10-05 18:07:53 +0530
+Processing by HomeController#logout as HTML
+Existing local CAS session detected for "tech_demo1". Previous ticket "ST-250-ID3RkexAePmgTKdc0AXG-neogrowth.in" will be re-used.
+Redirected to https://capdev.advancesuite.in:8443/cas/logout?destination=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1&gateway=true
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-10-05 18:08:01 +0530
+Processing by PortfolioController#report1 as HTML
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Generated login url: https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Redirecting to "https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1"
+Redirected to https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Filter chain halted as CASClient::Frameworks::Rails::Filter rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio/report1?ticket=ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in" for ::1 at 2016-10-05 18:08:24 +0530
+Processing by PortfolioController#report1 as HTML
+  Parameters: {"ticket"=>"ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in"}
+Request contains ticket "ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in".
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Requesting CAS response for URI https://capdev.advancesuite.in:8443/cas/p3/serviceValidate?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1&ticket=ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in
+CAS server responded with #<Net::HTTPOK 200 OK readbody=true>:
+
+
+
+
+<cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+    <cas:authenticationSuccess>
+        <cas:user>tech_demo1</cas:user>
+        
+        
+
+        
+            <cas:attributes>
+                
+
+                    
+                        <cas:firstname>TechDemo1</cas:firstname>
+                    
+                
+
+                    
+                        <cas:syncopeuid>250</cas:syncopeuid>
+                    
+                
+
+                    
+                        <cas:isFromNewLogin>true</cas:isFromNewLogin>
+                    
+                
+
+                    
+                        <cas:authenticationDate>2016-10-05T12:38:24.140Z</cas:authenticationDate>
+                    
+                
+
+                    
+                        <cas:iscrmadmin>0</cas:iscrmadmin>
+                    
+                
+
+                    
+                        <cas:nguid>111</cas:nguid>
+                    
+                
+
+                    
+                        <cas:active>Active</cas:active>
+                    
+                
+
+                    
+                        <cas:longTermAuthenticationRequestTokenUsed>false</cas:longTermAuthenticationRequestTokenUsed>
+                    
+                
+
+                    
+                        <cas:email>akshay@neogrowth.in</cas:email>
+                    
+                
+
+                    
+                        <cas:username>tech_demo1</cas:username>
+                    
+                
+
+                    
+                        <cas:lastname>Akshay</cas:lastname>
+                    
+                
+            </cas:attributes>
+        
+
+    </cas:authenticationSuccess>
+</cas:serviceResponse>
+
+Ticket "ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in" for service "http://localhost:3001/portfolio/report1" belonging to user "tech_demo1" is VALID.
+Extra user attributes provided along with ticket "ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in": {"firstname"=>"TechDemo1", "syncopeuid"=>"250", "isFromNewLogin"=>true, "authenticationDate"=>"2016-10-05 12:38:24 UTC", "iscrmadmin"=>"0", "nguid"=>"111", "active"=>"Active", "longTermAuthenticationRequestTokenUsed"=>false, "email"=>"akshay@neogrowth.in", "username"=>"tech_demo1", "lastname"=>"Akshay"}.
+  Rendered portfolio/report1.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_topnavbar.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1208ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate/animate.css" for ::1 at 2016-10-05 18:08:25 +0530
+
+
+Started GET "/assets/dataTables/datatables.min.css" for ::1 at 2016-10-05 18:08:25 +0530
+
+
+Started GET "/home/logout" for ::1 at 2016-10-05 18:15:38 +0530
+Processing by HomeController#logout as HTML
+Existing local CAS session detected for "tech_demo1". Previous ticket "ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in" will be re-used.
+Redirected to https://capdev.advancesuite.in:8443/cas/logout?destination=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1&gateway=true
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio/report1?ticket=ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in" for ::1 at 2016-10-05 18:15:41 +0530
+Processing by PortfolioController#report1 as HTML
+  Parameters: {"ticket"=>"ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in"}
+Request contains ticket "ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in".
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Requesting CAS response for URI https://capdev.advancesuite.in:8443/cas/p3/serviceValidate?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1&ticket=ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in
+CAS server responded with #<Net::HTTPOK 200 OK readbody=true>:
+
+
+<cas:serviceResponse xmlns:cas='http://www.yale.edu/tp/cas'>
+    <cas:authenticationFailure code='INVALID_TICKET'>
+            Ticket &#039;ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in&#039; not recognized
+    </cas:authenticationFailure>
+</cas:serviceResponse>
+
+Ticket "ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in" failed validation -- INVALID_TICKET: Ticket 'ST-251-LDsrxNq4cONB1uAsjFPz-neogrowth.in' not recognized
+Guessed service url: "http://localhost:3001/portfolio/report1"
+Generated login url: https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Redirecting to "https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1"
+Redirected to https://capdev.advancesuite.in:8443/cas/login?service=http%3A%2F%2Flocalhost%3A3001%2Fportfolio%2Freport1
+Filter chain halted as CASClient::Frameworks::Rails::Filter rendered or redirected
+Completed 302 Found in 329ms (ActiveRecord: 0.0ms)

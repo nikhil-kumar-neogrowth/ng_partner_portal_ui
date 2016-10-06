@@ -6,11 +6,12 @@ Myapp::Application.routes.draw do
   get 'portfolio/report3'
 
   # get 'applications/details'
-  get "applications" => 'applications#all'
-  get "applications/all" => 'applications#applicationdetails'
+  get "applications/all" => 'applications#all'
   get "applications/details" => 'applications#details'
   get "home/index"
   get "home/minor"
+  get "home/logout"
+  get "home/get_user_details"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -63,14 +63,5 @@ class ApplicationsController < ApplicationController
   	# render :json => @resources
   end
 
-  def applicationdetails
-  	base_uri = "http://localhost:3000"
-  
-  	url =  "#{base_uri}/get_partners_application_details"
-  	resource = HTTParty.get(url)
-  	# resource = HTTParty.get(@base_uri+"/get_partners_application_details")
-  	@resources = JSON.parse(resource.body)
-  	# render :json => @resources
-  end
 
 end
